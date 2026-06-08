@@ -13,6 +13,6 @@ st.write("My RAG chatbot demo is being updated. Check back in 2 hours.")
 
 st.header("Order Your Custom Chatbot")
 st.write("Want this for your business? 3 day delivery, source citations included.")
-st.markdown("[**Order Now on Fiverr →**](https://https://www.fiverr.com/s/pd7l46l
+st.markdown("[**Order Now on Fiverr →**](https://www.fiverr.com/s/pd7l46l)")
 st.write("---")
 st.write("Built with LangChain + OpenAI + FAISS")
