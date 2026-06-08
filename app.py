@@ -3,7 +3,7 @@ import os
 
 st.set_page_config(page_title="AI Chatbot Demo", page_icon="🤖")
 st.title("🤖 PDF Chatbot Demo")
-st.write("Hi! I'm [SUMAN]. I build AI chatbots that read your PDFs.")
+st.write("Hi! I'm [SUMAN LATA]. I build AI chatbots that read your PDFs.")
 
 st.header("How it works:")
 st.write("1. You upload PDF → 2. Ask questions → 3. Get answers with sources")
