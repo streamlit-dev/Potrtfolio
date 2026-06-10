@@ -7,7 +7,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_openai import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 st.set_page_config(page_title="PDF Chatbot by Suman", page_icon="📄")
 
 st.title("📄 Chat with your PDF - Live Demo")
