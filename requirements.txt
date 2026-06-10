@@ -2,6 +2,6 @@ streamlit
 langchain
 openai
 faiss-cpu
-pypdf2
+pyPDF2
 tiktoken
-
+python-dotenv
