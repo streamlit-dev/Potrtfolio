@@ -1,14 +1,13 @@
 import streamlit as st
 import os
 from PyPDF2 import PdfReader
-from langchain.text_splitter import CharacterTextSplitter
+from langchain_text_splitters import CharacterTextSplitter
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_openai import ChatOpenAI
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain.prompts import PromptTemplate
-
 st.set_page_config(page_title="PDF Chatbot by Suman", page_icon="📄")
 
 st.title("📄 Chat with your PDF - Live Demo")
